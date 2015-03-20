@@ -1,4 +1,4 @@
-# JS/Coffescript version of `ucfirst()` and `ucwords()`
+# JS/Coffescript version of *ucfirst()* and *ucwords()*
 
 Inspired on http://php.net/ucfirst and http://php.net/manual/en/function.ucwords.php
 
