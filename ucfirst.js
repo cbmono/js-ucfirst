@@ -1,5 +1,5 @@
 /**
- * Transform the first character of a string into an upper case:
+ * Make a string's first character uppercase
  *
  *  `hello world` --> `Hello world`
  *
@@ -12,13 +12,13 @@ String.prototype.ucfirst = function ucfirst() {
 };
 
 /**
- * Transform every first character of a word into an upper case:
+ * Uppercase the first character of each word in a string
  *
  *   `hello world` --> `Hello World`
  *
  * @return {string}
  */
-String.prototype.ucfirstAll = function ucfirstAll() {
+String.prototype.ucwords = function ucfirstAll() {
   return this.split(' ').map(function(word) {
     return word.ucfirst();
   }).join(' ');
